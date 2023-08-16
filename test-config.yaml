@@ -1,0 +1,7 @@
+data_path : '/DaiS_internship/Hyundai_RB/save_txt_path/ACC_2000_REJ_274(only_fold_data)/'
+model_path: /DaiS_internship/Hyundai_RB/KCY/mlflow_testing/result_dir/2023-05-12_03:/CNN/h5_model
+result_dir: /DaiS_internship/Hyundai_RB/KCY/mlflow_testing/result_dir/2023-05-12_03:/CNN/test_result
+model_name: 'CNN'
+seed: 72
+target_size : [512, 512, 1]
+method : ['sobel_masking', 'origin', 'median_blur']

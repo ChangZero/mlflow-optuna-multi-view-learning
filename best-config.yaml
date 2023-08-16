@@ -1,0 +1,8 @@
+train_path : '/DaiS_internship/Hyundai_RB/save_txt_path/ACC_2000_REJ_274(only_fold_data)/'
+epoch : 300
+batch_size : 64
+seed : 72
+target_size : [512, 512, 1]
+model_name: 'VGG16'
+method : ['sobel_masking', 'origin', 'median_blur']
+lr : 0.0001
